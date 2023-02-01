@@ -51,22 +51,22 @@
       "id": 2
     },
     {
-      "name": "Last user",
-      "mobNumber": "0123456789",
+      "name": "Me",
+      "mobNumber": "09093458956",
       "age": 25,
-      "dob": "2017-11-30",
+      "dob": "2012-01-30",
       "email": "buyer@gmail.com",
       "password": "123456",
       "gender": "Male",
       "address": {
         "id": 0,
-        "addLine1": "Marathalli",
-        "addLine2": "Aswathnagar",
-        "city": "Bangalore",
+        "addLine1": "aasd",
+        "addLine2": "Aswathnagarasdas",
+        "city": "Pasig",
         "state": "Choose...",
         "zipCode": "560037"
       },
-      "aboutYou": "djdhjdh",
+      "aboutYou": "Me plus you are we",
       "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
       "role": "buyer",
       "id": 3
@@ -683,7 +683,18 @@
       "github": ""
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": 1,
+      "name": "Studded Buckle Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+      "categoryID": 1,
+      "mrp": "300",
+      "php": "200",
+      "status": "publish",
+      "qty": 1
+    }
+  ],
   "category": [
     {
       "id": 1,
