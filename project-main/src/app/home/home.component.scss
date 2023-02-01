@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Century Gothic');
+
+#_title {
+    font-family: Oswald;
+    font-size: 90pt;
+    text-shadow: black 1px 0 10px;
+    color: tan !important;
+}
+
+#_zone {
+    text-shadow: silver 1px 0 10px;
+}
+
+#_extra {
+    font-family: Segoe UI light;
+    text-shadow: black 1px 0 10px;
+}
+
+.btn {
+    font-family: Century Gothic;
+}
+
+.card-text, #_title, h4 {
+    text-shadow: black 1px 0 10px;
+}
+
+.card-body {
+    height: 100%;
+    backdrop-filter: blur(3px);
+}
+
+#banner {
+    background-image: url('../../assets/banner.jpg');
+    height: 90vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blur {
+    height: 100%;
+    backdrop-filter: blur(3px);
+}
+
+.carousel-inner {
+    img {
+        height: 40vh;
+    }
+}
+
+h4 {
+    color: white;
+
+}

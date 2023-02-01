@@ -1,0 +1,83 @@
+<div class="container-lg" style="margin-top: 75px;">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    Product Detail
+                </div>
+                <div class="card-body product-detail" *ngIf="multiple_products">
+                    <div class="row" *ngFor="let products of multiple_products">
+                        <div class="col-sm-4 m-auto">
+                            <img src="{{products.uploadPhoto}}" class="card-img-top mx-auto d-block"
+                                alt="{{products.name}}">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 class="card-title">{{products.name}}</h4>
+                            <p class="card-text product-desc">{{getCategoryName(products.categoryID)}}</p>
+                            <p>
+                                <span class="float-right"><strong>Quantity</strong>: {{products.qty}}</span><br>
+                                <span class="float-left"><strong>MRP</strong>:
+                                    <del>{{products.mrp}}</del></span>
+                                <span class="float-right"><strong>Price</strong>:
+                                    {{products.php}}</span>
+                            </p><br>
+                            <p>
+                                <span class="float-right"><strong>ORDER TOTAL: &#8369;</strong>
+                                    {{products.php * products.qty}}</span>
+                            </p>
+                        </div>
+                        <div class="py-2">
+                            <hr class="border border-2 border-secondary">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body product-detail" *ngIf="individual_product">
+                    <div class="row">
+                        <div class="col-sm-4 m-auto">
+                            <img src="{{individual_product?.uploadPhoto}}" class="card-img-top mx-auto d-block"
+                                alt="{{individual_product?.name}}">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 class="card-title">{{individual_product?.name}}</h4>
+                            <p class="card-text product-desc">{{getCategoryName(individual_product?.categoryID)}}</p>
+                            <p>
+                                <span class="float-right"><strong>Quantity</strong>: {{individual_product?.qty}}</span><br>
+                                <span class="float-left"><strong>MRP</strong>:
+                                    <del>{{individual_product?.mrp}}</del></span>
+                                <span class="float-right"><strong>Price</strong>:
+                                    {{individual_product?.php}}</span>
+                            </p><br>
+                            <p>
+                                <span class="float-right"><strong>ORDER TOTAL: &#8369;</strong>
+                                    {{individual_product?.php * individual_product?.qty}}</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Address Detail
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{user_address?.name}}</h5>
+                    <p class="card-text">{{user_address?.addLine1}},{{user_address?.addLine2}}</p>
+                    <p class="card-text">{{user_address?.city}},{{user_address?.state}}</p>
+                    <p class="card-text">Postal Code: {{user_address?.zipCode}}</p>
+                    <p class="card-text">Contact Number: {{user_contact_no}}</p>
+                    <a class="btn btn-success mb-3 text-light" (click)="placeOrder()">Place Order</a>
+                    <div class="alert alert-info" role="alert">
+                        <strong>Note: </strong>
+                        We are not giving mutiple address addition, If you want to deliver in
+                        diffrent addres for now chage the address in
+                        <span routerLink="/my-profile" class="text-info sim-pointer">My profile</span>
+                        section.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

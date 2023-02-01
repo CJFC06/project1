@@ -1,0 +1,14 @@
+.card {
+    img {
+        height: 12rem;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .card-body {
+        .product-desc {
+            height: 25px;
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,717 @@
+{
+  "user": [
+    {
+      "name": "Srikrushna Pal",
+      "mobNumber": "1234567891",
+      "age": 27,
+      "dob": "1992-09-17",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": "560037"
+      },
+      "language": [
+        "English",
+        "Oriya/Odiya"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer...",
+      "uploadPhoto": "C:\\fakepath\\Screenshot-demo from 2019-06-21 17-13-05.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "aboutYou": "I am programmer",
+      "age": 27,
+      "agreetc": true,
+      "dob": "2023-01-01",
+      "email": "seller@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "qwe",
+        "addLine2": "asd",
+        "city": "Lumipad",
+        "state": "Ang aming team",
+        "zipCode": "3015"
+      },
+      "language": [
+        "Tagalog/English"
+      ],
+      "mobNumber": "0123456789",
+      "name": "Rowell Esguerra",
+      "password": "123456",
+      "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
+      "role": "seller",
+      "id": 2
+    },
+    {
+      "name": "Last user",
+      "mobNumber": "0123456789",
+      "age": 25,
+      "dob": "2017-11-30",
+      "email": "buyer@gmail.com",
+      "password": "123456",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": "560037"
+      },
+      "aboutYou": "djdhjdh",
+      "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
+      "role": "buyer",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Studded Buckle Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+      "categoryID": 1,
+      "mrp": "300",
+      "php": "200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 2,
+      "name": "Lace-Up Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+      "categoryID": 2,
+      "mrp": "1300",
+      "php": "1250",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 3,
+      "name": "Plaited Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
+      "categoryID": 1,
+      "mrp": "350",
+      "php": "300",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 4,
+      "name": "Dalia Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/cf/15/cf/cf15cf66116e92c11d721cd09b295cca.jpg",
+      "categoryID": 3,
+      "mrp": "1600",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 5,
+      "name": "Classic Nude Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/00/3f/0f/003f0ffc95dcf73256bff15c61dbf674.jpg",
+      "categoryID": 4,
+      "mrp": "1000",
+      "php": "900",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 6,
+      "name": "Urban Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/30/5f/30/305f305394ad4a74f59740062f39ff0d.jpg",
+      "categoryID": 2,
+      "mrp": "1250",
+      "php": "1200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 7,
+      "name": "Raffles Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/18/88/d7/1888d7eb0de7f9bae07dc8d6fff42621.jpg",
+      "categoryID": 1,
+      "mrp": "300",
+      "php": "250",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 8,
+      "name": "Natalia Spear Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/c5/97/b3/c597b31772275a786c6fc3eb3b56abdf.jpg",
+      "categoryID": 3,
+      "mrp": "2200",
+      "php": "2000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 9,
+      "name": "Leatherette Pointed Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/c0/3f/d8/c03fd875dde20647da395a15d7211a3c.jpg",
+      "categoryID": 4,
+      "mrp": "1500",
+      "php": "1400",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 10,
+      "name": "Skate Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/ee/0b/ed/ee0bed176de6772cd87169373825733b.jpg",
+      "categoryID": 2,
+      "mrp": "1300",
+      "php": "1250",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 11,
+      "name": "Barcelona Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/4a/b3/f2/4ab3f2c7a446f8c3c2b5b0ce7ec6b967.jpg",
+      "categoryID": 2,
+      "mrp": "1400",
+      "php": "1300",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 12,
+      "name": "Glittery Low Cut Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/ba/af/7f/baaf7fb70281f4a67dd69a2261a505a0.jpg",
+      "categoryID": 3,
+      "mrp": "1700",
+      "php": "1600",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 13,
+      "name": "Winter Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/d5/47/1f/d5471f60246507d2d1ba4b2e000b95b1.jpg",
+      "categoryID": 4,
+      "mrp": "1700",
+      "php": "1600",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 14,
+      "name": "Black Running Shoes",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/l572ufk0/shoe/e/m/m/10-crystal-09cblack-10-asian-black-original-imagfxh8yg467jf9.jpeg?q=70",
+      "categoryID": "Cool and Nice ",
+      "mrp": "999",
+      "php": "500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 15,
+      "name": "Breathable Running Shoes",
+      "uploadPhoto": "https://ae01.alicdn.com/kf/Sd2b232811c314e6386e5876107a7167cx/Red-Men-s-Casual-Sneakers-Breathable-Sports-Running-Shoes-Soft-Lightweight-Mesh-Shose-Comfortable-Antiskid-Men.jpg_640x640.jpg",
+      "categoryID": 6,
+      "mrp": "1199",
+      "php": "600",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 16,
+      "name": "Spongebob BasketBall Shoes",
+      "uploadPhoto": "https://image.made-in-china.com/202f0j00YFBhuKsqyZoM/Cheap-Custom-Logo-Sport-Women-prime-S-Chinese-Outdoor-Basketball-Shoes-Men.jpg",
+      "categoryID": 7,
+      "mrp": "1999",
+      "php": "1000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 17,
+      "name": "Light Basketball Sneakers",
+      "uploadPhoto": "https://ae01.alicdn.com/kf/Sf33834a09933477bb7ae048e05078f6di/Men-Training-High-top-Basketball-Shoes-Men-s-Cushioning-Light-Basketball-Sneakers-designer-shoes-Breathable-Outdoor.jpeg_Q90.jpeg_.webp",
+      "categoryID": 7,
+      "mrp": "1299",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 18,
+      "name": "Gold Basket Ball Shoes",
+      "uploadPhoto": "https://i.ebayimg.com/thumbs/images/g/ZQIAAOSw2xBhsCWW/s-l300.jpg",
+      "categoryID": 7,
+      "mrp": "3999",
+      "php": "2000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 19,
+      "name": "Black Boots",
+      "uploadPhoto": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-mens-black-boots-header-1620143368.jpg?crop=0.497xw:0.994xh;0.503xw,0&resize=640:*",
+      "categoryID": 3,
+      "mrp": "1999",
+      "php": "600",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 20,
+      "name": "Chelsea Boots",
+      "uploadPhoto": "https://luxurylondon.co.uk/wp-content/uploads/2022/09/the-best-chelsea-boots-for-men-1465x1099-c-center.jpg",
+      "categoryID": 3,
+      "mrp": "3000",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 21,
+      "name": "Waterproof Boots",
+      "uploadPhoto": "https://images.timberland.com/is/image/timberland/A2DVV201-ALT4?wid=500&hei=500",
+      "categoryID": 3,
+      "mrp": "4000",
+      "php": "2000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 22,
+      "name": "Summer Mat Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/35/93/dc/3593dc2aeb4d10b0c27ef6e02ee25e5c.jpg",
+      "categoryID": 1,
+      "mrp": "250",
+      "php": "200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 23,
+      "name": "Axel Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/8d/20/57/8d20577683afdea242330f085c9d782b.jpg",
+      "categoryID": 2,
+      "mrp": "1500",
+      "php": "1200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 24,
+      "name": "Denim Pointed Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/87/df/c6/87dfc6613e45f6b25f7d64dc2f950321.jpg",
+      "categoryID": 3,
+      "mrp": "2000",
+      "php": "1800",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 25,
+      "name": "Glittery Stiletto Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/64/d9/99/64d9994db144bf86b924b12bbcbb7fd6.jpg",
+      "categoryID": 4,
+      "mrp": "1300",
+      "php": "1200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 26,
+      "name": "Studded Buckle Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+      "categoryID": 1,
+      "mrp": "250",
+      "php": "200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 27,
+      "name": "SnakeSkin Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/2b/f3/5f/2bf35f1c7f750444b7ea92d1e92741f9.jpg",
+      "categoryID": 2,
+      "mrp": "1600",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 28,
+      "name": "Plain Mid Cut Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/5c/2a/24/5c2a244c2c87720e15f21e819c544fdf.jpg",
+      "categoryID": 3,
+      "mrp": "1600",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 29,
+      "name": "Zanotti Strap Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/72/38/b8/7238b852a1b5e33f84546e716cb9c9ae.jpg",
+      "categoryID": 4,
+      "mrp": "1100",
+      "php": "1000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 30,
+      "name": "Classic Pearl Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/90/c4/36/90c4365dbfb9734729e7cf68d79046ac.jpg",
+      "categoryID": 4,
+      "mrp": "1350",
+      "php": "1250",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 31,
+      "name": "Patent Leather Wallet Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/c4/96/8b/c4968bee50ba80145d813044b89d8ce5.jpg",
+      "categoryID": 3,
+      "mrp": "2500",
+      "php": "2200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 32,
+      "name": "Twirly Scarf Sneakers",
+      "uploadPhoto": "https://i.pinimg.com/564x/3e/cf/56/3ecf56caaab67d0f5055c4c76304a931.jpg",
+      "categoryID": 2,
+      "mrp": "2000",
+      "php": "1800",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 33,
+      "name": "Fringe Sandals",
+      "uploadPhoto": "https://i.pinimg.com/564x/cb/1b/56/cb1b5631546236a7196e522a65dd4bbf.jpg",
+      "categoryID": 1,
+      "mrp": "400",
+      "php": "350",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 34,
+      "name": "Lily Feather Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/8f/7e/a2/8f7ea27a119bd1e33565ca63d60ba7de.jpg",
+      "categoryID": 4,
+      "mrp": "1000",
+      "php": "900",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 35,
+      "name": "Raluca Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/a7/7c/66/a77c669ecc504e2455940b388ce9e844.jpg",
+      "categoryID": 3,
+      "mrp": "3200",
+      "php": "3000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 36,
+      "name": "Black Sandals",
+      "uploadPhoto": "https://static-ph.zacdn.com/p/birkenstock-9503-651925-2.jpg",
+      "categoryID": 1,
+      "mrp": "899",
+      "php": "400",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 37,
+      "name": "Brown Leather Sandals ",
+      "uploadPhoto": "https://5.imimg.com/data5/SELLER/Default/2021/6/PK/QZ/XQ/8852934/-mg-5078-500x500.JPG",
+      "categoryID": 1,
+      "mrp": "1199",
+      "php": "600",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 38,
+      "name": "Casual Leather Sandals ",
+      "uploadPhoto": "https://5.imimg.com/data5/JJ/KG/MM/SELLER-56197312/mens-casual-leather-sandals-500x500.jpg",
+      "categoryID": 1,
+      "mrp": "3000",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 39,
+      "name": "Claus Trainer Sneaker ",
+      "uploadPhoto": "https://i.pinimg.com/564x/35/16/1f/35161fc015ee2ea9cf00a7617680d230.jpg",
+      "categoryID": 2,
+      "mrp": "3000",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 40,
+      "name": "Lace-Up Sneaker",
+      "uploadPhoto": "https://i.pinimg.com/564x/c3/0c/be/c30cbefb4aaf2c8e6ce1130fad5b2aad.jpg",
+      "categoryID": 2,
+      "mrp": "2000",
+      "php": "1000",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 41,
+      "name": "White Sneaker",
+      "uploadPhoto": "https://i.pinimg.com/564x/44/45/97/4445979fd91cd31515050fcd27cd324b.jpg",
+      "categoryID": 2,
+      "mrp": "3500",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 42,
+      "name": "Leather Vintage Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/85/58/39/855839abe3bef49149054fe43db28c43.jpg",
+      "categoryID": 3,
+      "mrp": "2500",
+      "php": "1200",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 43,
+      "name": "Chelsea Black Boots",
+      "uploadPhoto": "https://i.pinimg.com/564x/24/04/ff/2404ff95a53e0ae17361d16fb1bb91e4.jpg",
+      "categoryID": 3,
+      "mrp": "2999",
+      "php": "1500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 44,
+      "name": "Lace-Up Derby Black Shoes",
+      "uploadPhoto": "https://i.pinimg.com/564x/91/62/c3/9162c3f969f22973ab79399622cc1e60.jpg",
+      "categoryID": 8,
+      "mrp": "999",
+      "php": "500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 45,
+      "name": "Lace-Up Leather",
+      "uploadPhoto": "https://i.pinimg.com/564x/9c/72/a0/9c72a0abc875c86be602ffc625a68a1d.jpg",
+      "categoryID": 8,
+      "mrp": "800",
+      "php": "400",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 46,
+      "name": "Loafer Leather",
+      "uploadPhoto": "https://i.pinimg.com/564x/9c/72/a0/9c72a0abc875c86be602ffc625a68a1d.jpg",
+      "categoryID": 8,
+      "mrp": "500",
+      "php": "250",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 47,
+      "name": "Leather Pointed Toe",
+      "uploadPhoto": "https://i.pinimg.com/564x/57/50/00/5750000911e5470a5a88d596be8fbc7b.jpg",
+      "categoryID": 8,
+      "mrp": "999",
+      "php": "500",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 48,
+      "name": "Lace-Up Pointed Toe",
+      "uploadPhoto": "https://i.pinimg.com/564x/57/50/00/5750000911e5470a5a88d596be8fbc7b.jpg",
+      "categoryID": 8,
+      "mrp": "1300",
+      "php": "650",
+      "status": "publish",
+      "qty": "1"
+    },
+    {
+      "id": 49,
+      "name": "Tuxedo Black",
+      "uploadPhoto": "https://i.pinimg.com/564x/e6/bc/b6/e6bcb6a4f0a25e6293b6bbccace34ef7.jpg",
+      "categoryID": 8,
+      "mrp": "1999",
+      "php": "1000",
+      "status": "publish",
+      "qty": "1"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sellerId": 0,
+      "products": {
+        "product": [
+          {
+            "id": 2,
+            "name": "Lace-Up Sneakers",
+            "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+            "categoryID": 2,
+            "mrp": "1300",
+            "php": "1250",
+            "status": "publish",
+            "qty": 9
+          },
+          {
+            "id": 8,
+            "name": "Natalia Spear Boots",
+            "uploadPhoto": "https://i.pinimg.com/564x/c5/97/b3/c597b31772275a786c6fc3eb3b56abdf.jpg",
+            "categoryID": 3,
+            "mrp": "2200",
+            "php": "2000",
+            "status": "publish",
+            "qty": 1
+          }
+        ]
+      },
+      "orderTotal": "012502000",
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "0123456789",
+      "dateTime": "2/1/2023"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "sellerId": 0,
+      "products": {
+        "product": [
+          {
+            "id": 2,
+            "name": "Lace-Up Sneakers",
+            "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+            "categoryID": 2,
+            "mrp": "1300",
+            "php": "1250",
+            "status": "publish",
+            "qty": 9
+          },
+          {
+            "id": 8,
+            "name": "Natalia Spear Boots",
+            "uploadPhoto": "https://i.pinimg.com/564x/c5/97/b3/c597b31772275a786c6fc3eb3b56abdf.jpg",
+            "categoryID": 3,
+            "mrp": "2200",
+            "php": "2000",
+            "status": "publish",
+            "qty": 1
+          }
+        ]
+      },
+      "orderTotal": "012502000",
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "0123456789",
+      "dateTime": "2/1/2023"
+    }
+  ],
+  "members": [
+    {
+      "name": "Kathalie Arrogante",
+      "image": "../../assets/images/kathalie.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus consequat tellus, sed vulputate ante suscipit ac. Phasellus ac rhoncus.",
+      "facebook": "https://www.facebook.com/kathalie.viceralarrogante?mibextid=LQQJ4d",
+      "github": ""
+    },
+    {
+      "name": "Jade Ballester",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus consequat tellus, sed vulputate ante suscipit ac. Phasellus ac rhoncus.",
+      "image": "../../assets/images/jade.jpg",
+      "facebook": "https://www.facebook.com/Jadiilester18?mibextid=LQQJ4d",
+      "github": ""
+    },
+    {
+      "name": "Rowell Esguerra",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus consequat tellus, sed vulputate ante suscipit ac. Phasellus ac rhoncus.",
+      "image": "../../assets/images/rowell.jpg",
+      "facebook": "https://www.facebook.com/CJFC06?mibextid=LQQJ4d",
+      "github": ""
+    },
+    {
+      "name": "Jonna Mae Mayang",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus consequat tellus, sed vulputate ante suscipit ac. Phasellus ac rhoncus.",
+      "image": "../../assets/images/jonna.jpg",
+      "facebook": "https://www.facebook.com/Buendia.Naanoj.7?mibextid=LQQJ4d",
+      "github": ""
+    },
+    {
+      "name": "Daryl Victa",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus consequat tellus, sed vulputate ante suscipit ac. Phasellus ac rhoncus.",
+      "image": "../../assets/images/daryl.jpg",
+      "facebook": "https://www.facebook.com/its.fukuda?mibextid=LQQJ4d",
+      "github": ""
+    }
+  ],
+  "cart": [],
+  "category": [
+    {
+      "id": 1,
+      "name": "Sandals"
+    },
+    {
+      "id": 2,
+      "name": "Sneakers"
+    },
+    {
+      "id": 3,
+      "name": "Boots"
+    },
+    {
+      "id": 4,
+      "name": "Heels"
+    },
+    {
+      "id": 5,
+      "name": "Casual Shoes"
+    },
+    {
+      "id": 6,
+      "name": "Sports Shoes"
+    },
+    {
+      "id": 7,
+      "name": "Black Shoes"
+    }
+  ]
+}

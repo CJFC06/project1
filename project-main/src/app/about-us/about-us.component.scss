@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Century Gothic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#_title {
+    font-family: Oswald;
+    font-size: 90pt;
+    text-shadow: black 1px 0 10px;
+    color: tan !important;
+}
+
+#_zone, #_header {
+    text-shadow: silver 1px 0 10px;
+}
+
+#_header {
+    text-shadow: black 1px 0 10px;
+}
+
+* :not(#_title > span) {
+    font-family: Century Gothic;
+}
+
+#_title {
+    span {
+        font-family: Oswald;
+    }
+}
+
+.card-title {
+    font-family: Montserrat !important;
+}
+
+#banner {
+    background-image: url('../../assets/banner.jpg');
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blur {
+    height: 100%;
+    backdrop-filter: blur(3px);
+}
