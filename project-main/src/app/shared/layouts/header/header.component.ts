@@ -15,7 +15,6 @@ export class HeaderComponent implements OnInit {
   user_role: String;
 
   constructor(private translate: TranslateService, private router: Router, private myCartService: MyCartService) { }
-
   cart_count
 
   ngOnInit() {
@@ -23,8 +22,9 @@ export class HeaderComponent implements OnInit {
   }
 
   getAllProduct() {
-    this.myCartService.allProduct().subscribe(data => {
+    this.myCartService.allProduct().subscribe(data => { 
       this.cart_count = data.length
+      this.ngOnInit()
     }, error => {
       console.log("My error", error);
     })
