@@ -68,7 +68,7 @@ export class ProductCrudComponent implements OnInit {
       categoryID: this.product_data.categoryID,
       mrp: this.product_data.mrp,
       php: this.product_data.php,
-      status: this.product_data.status      ,
+      status: this.product_data.status,
       qty: this.product_data.qty
     }
     this.product_service.addNewProduct(this.product_dto).subscribe(data => {

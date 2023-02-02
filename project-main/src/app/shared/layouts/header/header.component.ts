@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
+import { MyCartService } from 'src/app/customer/buyer/my-cart/services/my-cart.service';
 
 @Component({
   selector: 'app-header',
@@ -13,14 +14,26 @@ export class HeaderComponent implements OnInit {
   language: String = 'English';
   user_role: String;
 
-  constructor(private translate: TranslateService, private router: Router) { }
+  constructor(private translate: TranslateService, private router: Router, private myCartService: MyCartService) { }
 
-  ngOnInit() { }
+  cart_count
+
+  ngOnInit() {
+    this.getAllProduct()
+  }
+
+  getAllProduct() {
+    this.myCartService.allProduct().subscribe(data => {
+      this.cart_count = data.length
+    }, error => {
+      console.log("My error", error);
+    })
+  }
 
   ngDoCheck() {
     this.user_role = sessionStorage.getItem("role");
     // console.log(this.user_role);
-    
+
     const user_session_id = sessionStorage.getItem("user_session_id")
     if (user_session_id) {
       this.logged_in = true;

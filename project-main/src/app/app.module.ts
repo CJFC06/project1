@@ -21,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,7 +34,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProductCrudComponent,
     UserProfileComponent,
     ContactUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    OrderHistoryComponent
   ],
   imports: [
     CommonModule,

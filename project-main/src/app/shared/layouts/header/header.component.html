@@ -1,7 +1,8 @@
 <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary bg-transparent">
     <div class="container-lg">
-        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <span class="navbar-brand mb-0 h1">
@@ -32,7 +33,7 @@
                     <a class="nav-link" routerLink="/buyer-dashboard">{{'header.product' | translate}}</a>
                 </li>
                 <li class="nav-item my-2" *ngIf="user_role == 'buyer'">
-                    <a class="nav-link" routerLink="/my-order">{{'header.order' | translate}}</a>
+                    <a class="nav-link" routerLink="/order-history">{{'header.order' | translate}}</a>
                 </li>
                 <li class="nav-item my-2" *ngIf="user_role == 'admin'">
                     <a class="nav-link" routerLink="/all-order">{{'header.order' | translate}}</a>
@@ -52,8 +53,14 @@
             </ul>
         </div>
         <div class="btn-group">
-            <a class="btn btn-transparent" id="_cart" routerLink="/my-cart" *ngIf="user_role == 'buyer'">
+            <!-- <a class="btn btn-transparent" id="_cart" routerLink="/my-cart" *ngIf="user_role == 'buyer'">
                 <i class="fa-solid fa-cart-shopping fa-lg"></i>
+            </a> -->
+            <a class="btn btn-transparent position-relative" id="_cart" routerLink="/my-cart" *ngIf="user_role == 'buyer'">
+                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                <span class="position-absolute top-0 start-75 translate-middle badge rounded-pill bg-danger" id="cart_count">
+                    {{cart_count}}
+                </span>
             </a>
             <button type="button" class="btn btn-transparent dropdown-toggle" data-bs-toggle="dropdown"
                 aria-expanded="false">

@@ -1,0 +1,16 @@
+<div class="container-sm" id="_container">
+    <div *ngFor="let order of all_orders">
+        <span>Order ID: {{order.id}}</span><br>
+        <!-- <span>User ID: {{order.userId}}</span><br> -->
+        <span *ngIf="order.products.name">Product name: <br>{{order.products.name}}<br>Price: {{order.products.php}} -
+            Quantity: {{order.products.qty}} - Subtotal: {{order.products.php * order.products.qty}}<br></span>
+        <span *ngIf="order.products.product">Product name: <br>
+            <span *ngFor="let item of order.products.product">{{item.name}}<br>Price: {{item.php}} - Quantity:
+                {{item.qty}} - Subtotal: {{item.php * item.qty}}<br></span>
+        </span>
+        <span>Order Total: {{order.orderTotal}}</span><br>
+        <span>Date purchased: {{order.dateTime}}</span>
+        <br>
+        <br>
+    </div>
+</div>

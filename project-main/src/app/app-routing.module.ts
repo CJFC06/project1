@@ -15,6 +15,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MyCartComponent } from './customer/buyer/my-cart/my-cart.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/", pathMatch: "full" },
@@ -58,6 +59,7 @@ const routes: Routes = [
     path: '', canActivate: [BuyerAuthGaurdService], children: [
       { path: "buyer-dashboard", component: BuyerDashboardComponent },
       { path: "my-cart", component: MyCartComponent },
+      { path: "order-history", component: OrderHistoryComponent },
       { path: "checkout", component: CheckoutComponent }
     ]
   },

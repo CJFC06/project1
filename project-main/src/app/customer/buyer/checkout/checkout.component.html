@@ -69,7 +69,13 @@
                     <p class="card-text">Postal Code: {{user_address?.zipCode}}</p>
                     <p class="card-text">Contact Number: {{user_contact_no}}</p>
                     <a class="btn btn-success mb-3 text-light" (click)="placeOrder()">Place Order</a>
-                     
+                    <div class="alert alert-info" role="alert">
+                        <strong>Note: </strong>
+                        We are not giving mutiple address addition, If you want to deliver in
+                        diffrent addres for now chage the address in
+                        <span routerLink="/my-profile" class="text-info sim-pointer">My profile</span>
+                        section.
+                    </div>
                 </div>
             </div>
         </div>

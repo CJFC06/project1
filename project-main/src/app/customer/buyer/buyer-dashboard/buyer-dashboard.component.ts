@@ -97,7 +97,6 @@ export class BuyerDashboardComponent implements OnInit {
         alert("Some error occured!")
       }
     }
-    alert("Successfully added to cart");
   }
 
   addQuantity(product) {

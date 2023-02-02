@@ -30,6 +30,10 @@ export class CustomerService {
     return this.apiService.get(this.category_url)
   }
 
+  allOrders(): Observable<any> {
+    return this.apiService.get(this.order_url)
+  }
+
   quickBuyProduct(product_id: number, source: string) {
     this.single_product_id.next(product_id)
     this.sourceJson.next(source)

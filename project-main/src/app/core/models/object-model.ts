@@ -46,7 +46,7 @@ export class Order {
     products: Product | Products;
     orderTotal: number
     deliveryAddress: Address;
-    contact: Number;
+    contact: number;
     dateTime: string;
 }
 

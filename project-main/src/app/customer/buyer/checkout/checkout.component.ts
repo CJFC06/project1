@@ -17,7 +17,7 @@ export class CheckoutComponent implements OnInit {
   individual_product: Product
   user_detail: User
   user_address
-  user_contact_no: Number
+  user_contact_no: number
   order_dto: Order;
   multi_amount: number = 0
 
@@ -63,10 +63,13 @@ export class CheckoutComponent implements OnInit {
   }
 
   productsDetail(multiple_products) {
+    let total = 0
     for (let i = 0; i < multiple_products.length; i++) {
       console.log(multiple_products[i])
-      this.multi_amount += multiple_products[i].php
+      total += multiple_products[i].php * multiple_products[i].qty
     }
+    this.multi_amount = total
+    console.log(this.multi_amount)
   }
 
   userAddress(user_id) {
