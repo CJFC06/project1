@@ -137,14 +137,14 @@ export class CheckoutComponent implements OnInit {
     if (this.multiple_products) {
       this.customerService.insertNewOrder(this.order_dto).subscribe(data => {
         // console.log("Order placed successfully", data);
-        for (let i = 0; i < this.multiple_products.length; i++) {
-          this.myCartService.deleteProduct(this.multiple_products[i].id).subscribe(err => {})
-        }
+        console.log("before")
+        this.myCartService.deleteMultipleProducts(this.multiple_products)
+        console.log("after")
         alert("Order placed successfully")
-        this.router.navigateByUrl("/buyer-dashboard");
       }, err => {
         alert("Some Error Occured");
       })
+      this.router.navigateByUrl("/buyer-dashboard");
       
     }
     else {

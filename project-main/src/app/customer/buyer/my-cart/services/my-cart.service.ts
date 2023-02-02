@@ -40,4 +40,10 @@ export class MyCartService {
   deleteProduct(id): Observable<any> {
     return this.apiService.delete(this.cart_url + id);
   }
+
+  deleteMultipleProducts(products) {
+    products.forEach(product => {
+      this.deleteProduct(product.id).subscribe()
+    });
+  }
 }

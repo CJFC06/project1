@@ -1,16 +1,78 @@
 <div class="container-sm" id="_container">
+    <h1 class="text-center my-5">Order History</h1>
+    <br>
     <div *ngFor="let order of all_orders">
-        <span>Order ID: {{order.id}}</span><br>
-        <!-- <span>User ID: {{order.userId}}</span><br> -->
-        <span *ngIf="order.products.name">Product name: <br>{{order.products.name}}<br>Price: {{order.products.php}} -
-            Quantity: {{order.products.qty}} - Subtotal: {{order.products.php * order.products.qty}}<br></span>
-        <span *ngIf="order.products.product">Product name: <br>
-            <span *ngFor="let item of order.products.product">{{item.name}}<br>Price: {{item.php}} - Quantity:
-                {{item.qty}} - Subtotal: {{item.php * item.qty}}<br></span>
-        </span>
-        <span>Order Total: {{order.orderTotal}}</span><br>
-        <span>Date purchased: {{order.dateTime}}</span>
-        <br>
-        <br>
+        <div class="card border-info mx-5">
+            <div class="card-header bg-info text-white">
+                <strong>Order ID</strong>: {{order.id}}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" *ngIf="order.products.name">Product placed</h5>
+                <h5 class="card-title" *ngIf="order.products.product">Multiple Products placed</h5>
+                <span class="card-text" *ngIf="order.products.name">
+                    <table>
+                        <tr>
+                            <td><strong>Name</strong>:</td>
+                            <td>{{order.products.name}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Quantity</strong>:</td>
+                            <td>{{order.products.qty}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Price</strong>:</td>
+                            <td>{{order.products.php}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Subtotal</strong>:</td>
+                            <td>{{order.products.php * order.products.qty}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Order Total</strong>:</td>
+                            <td>{{order.orderTotal}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date purchased</strong>:</td>
+                            <td>{{order.dateTime}}</td>
+                        </tr>
+                    </table>
+                </span>
+                <div *ngIf="order.products.product">
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start"
+                            *ngFor="let item of order.products.product">
+                            <div class="ms-2 me-auto">
+                                <table>
+                                    <tr>
+                                        <td><strong>Name</strong>:</td>
+                                        <td>{{item.name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Price</strong>:</td>
+                                        <td>{{item.php}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Subtotal</strong>:</td>
+                                        <td>{{item.php * item.qty}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Quantity: {{item.qty}}</span>
+                        </li>
+                    </ol>
+                    <br>
+                    <table>
+                        <tr>
+                            <td><strong>Order Total</strong>:</td>
+                            <td>{{order.orderTotal}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date purchased</strong>:</td>
+                            <td>{{order.dateTime}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div><br>
     </div>
 </div>
