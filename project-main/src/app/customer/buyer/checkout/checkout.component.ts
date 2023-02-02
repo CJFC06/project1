@@ -118,6 +118,7 @@ export class CheckoutComponent implements OnInit {
           qty: this.individual_product.qty ? this.individual_product.qty : 1,
           mrp: this.individual_product.mrp,
           php: this.individual_product.php,
+          size: this.individual_product.size,
           status: this.individual_product.status
         },
         orderTotal: this.individual_product.php * this.individual_product.qty,

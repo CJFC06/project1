@@ -32,6 +32,7 @@ export class Product {
     qty: number;
     mrp: number;
     php: number;
+    size: number;
     status: boolean;
 
 }

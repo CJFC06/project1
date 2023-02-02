@@ -33,7 +33,8 @@
                         </span>
                         <br>
                         <p>{{getCategoryName(product)}}</p>
-                        <p><strong class="text-success">PHP</strong>: {{product.php}}</p>
+                        <p><strong class="text-success">PHP</strong>: {{product.php}} <br>
+                        <strong class="text-secondary"> Size</strong>: {{product.size}}</p> 
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-info p-0 px-2 fw-bold"
                                 (click)="decreaseQuantity(product)">-</button>

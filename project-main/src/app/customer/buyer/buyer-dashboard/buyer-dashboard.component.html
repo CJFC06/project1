@@ -44,6 +44,22 @@
                         <span class="float-right"><strong>PHP</strong>: {{product.php}}</span>
                     </p>
                     <br>
+                    <span>Size: </span>
+                    <select name="size" id="size" [(ngModel)]="size" (change)="selected(size)" required>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                    </select>
                     <p class="card-text product-desc">{{getCategoryName(product)}}</p>
                     <a class="btn btn-info text-light float-right ms-2" (click)="buyProduct(product.id)">Buy Now</a>
                     <a class="btn btn-primary text-light float-right" (click)="addToCart(product)">Add to Cart</a>

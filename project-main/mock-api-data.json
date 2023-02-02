@@ -106,6 +106,7 @@
       "mrp": "300",
       "php": 200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -116,6 +117,7 @@
       "mrp": "1300",
       "php": 1250,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -126,6 +128,7 @@
       "mrp": "350",
       "php": 300,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -136,6 +139,7 @@
       "mrp": "1600",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -146,6 +150,7 @@
       "mrp": "1000",
       "php": 900,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -156,6 +161,7 @@
       "mrp": "1250",
       "php": 1200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -166,6 +172,7 @@
       "mrp": "300",
       "php": 250,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -176,6 +183,7 @@
       "mrp": "2200",
       "php": 2000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -186,6 +194,7 @@
       "mrp": "1500",
       "php": 1400,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -196,6 +205,7 @@
       "mrp": "1300",
       "php": 1250,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -206,6 +216,7 @@
       "mrp": "1400",
       "php": 1300,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -216,6 +227,7 @@
       "mrp": "1700",
       "php": 1600,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -226,6 +238,7 @@
       "mrp": "1700",
       "php": 1600,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -236,6 +249,7 @@
       "mrp": "999",
       "php": 500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -246,6 +260,7 @@
       "mrp": "1199",
       "php": 600,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -256,6 +271,7 @@
       "mrp": "1999",
       "php": 1000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -266,6 +282,7 @@
       "mrp": "1299",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -276,6 +293,7 @@
       "mrp": "3999",
       "php": 2000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -286,6 +304,7 @@
       "mrp": "1999",
       "php": 600,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -296,6 +315,7 @@
       "mrp": "3000",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -306,6 +326,7 @@
       "mrp": "4000",
       "php": 2000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -316,6 +337,7 @@
       "mrp": "250",
       "php": 200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -326,6 +348,7 @@
       "mrp": "1500",
       "php": 1200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -336,6 +359,7 @@
       "mrp": "2000",
       "php": 1800,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -346,6 +370,7 @@
       "mrp": "1300",
       "php": 1200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -356,6 +381,7 @@
       "mrp": "250",
       "php": 200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -366,6 +392,7 @@
       "mrp": "1600",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -376,6 +403,7 @@
       "mrp": "1600",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -386,6 +414,7 @@
       "mrp": "1100",
       "php": 1000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -396,6 +425,7 @@
       "mrp": "1350",
       "php": 1250,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -406,6 +436,7 @@
       "mrp": "2500",
       "php": 2200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -416,6 +447,7 @@
       "mrp": "2000",
       "php": 1800,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -426,6 +458,7 @@
       "mrp": "400",
       "php": 350,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -436,6 +469,7 @@
       "mrp": "1000",
       "php": 900,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -446,6 +480,7 @@
       "mrp": "3200",
       "php": 3000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -456,6 +491,7 @@
       "mrp": "899",
       "php": 400,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -466,6 +502,7 @@
       "mrp": "1199",
       "php": 600,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -476,6 +513,7 @@
       "mrp": "3000",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -486,6 +524,7 @@
       "mrp": "3000",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -496,6 +535,7 @@
       "mrp": "2000",
       "php": 1000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -506,6 +546,7 @@
       "mrp": "3500",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -516,6 +557,7 @@
       "mrp": "2500",
       "php": 1200,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -526,6 +568,7 @@
       "mrp": "2999",
       "php": 1500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -536,6 +579,7 @@
       "mrp": "999",
       "php": 500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -546,6 +590,7 @@
       "mrp": "800",
       "php": 400,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -556,6 +601,7 @@
       "mrp": "500",
       "php": 250,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -566,6 +612,7 @@
       "mrp": "999",
       "php": 500,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -576,6 +623,7 @@
       "mrp": "1300",
       "php": 650,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     },
     {
@@ -586,6 +634,7 @@
       "mrp": "1999",
       "php": 1000,
       "status": "publish",
+      "size": "1",
       "qty": "1"
     }
   ],
@@ -614,63 +663,24 @@
         "zipCode": 1234
       },
       "contact": "0123456789",
-      "dateTime": "2/2/2023"
+      "dateTime": "2/3/2023"
     },
     {
       "id": 2,
       "userId": 3,
       "sellerId": 0,
       "products": {
-        "product": [
-          {
-            "id": 2,
-            "name": "Lace-Up Sneakers",
-            "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-            "categoryID": 2,
-            "mrp": "1300",
-            "php": 1250,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 3,
-            "name": "Plaited Sandals",
-            "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
-            "categoryID": 1,
-            "mrp": "350",
-            "php": 300,
-            "status": "publish",
-            "qty": 1
-          }
-        ]
-      },
-      "orderTotal": 1550,
-      "deliveryAddress": {
-        "id": 0,
-        "addLine1": "Sample street, Sample Barangay",
-        "addLine2": "Sample street2, Sample Barangay2",
-        "city": "Sample City or Town",
-        "state": "Choose...",
-        "zipCode": 1234
-      },
-      "contact": "0123456789",
-      "dateTime": "2/2/2023"
-    },
-    {
-      "id": 4,
-      "userId": 3,
-      "sellerId": 0,
-      "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
+        "id": 1,
+        "name": "Studded Buckle Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+        "categoryID": 1,
         "qty": 1,
-        "mrp": "1300",
-        "php": 1250,
+        "mrp": "300",
+        "php": 200,
+        "size": "33",
         "status": "publish"
       },
-      "orderTotal": 1250,
+      "orderTotal": 200,
       "deliveryAddress": {
         "id": 0,
         "addLine1": "Sample street, Sample Barangay",
@@ -680,177 +690,61 @@
         "zipCode": 1234
       },
       "contact": "0123456789",
-      "dateTime": "2/2/2023"
+      "dateTime": "2/3/2023"
     },
     {
-      "id": 5,
+      "id": 3,
       "userId": 3,
-      "sellerId": 0,
-      "products": {
-        "product": [
-          {
-            "id": 3,
-            "name": "Plaited Sandals",
-            "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
-            "categoryID": 1,
-            "mrp": "350",
-            "php": 300,
-            "status": "publish",
-            "qty": 2
-          },
-          {
-            "id": 9,
-            "name": "Leatherette Pointed Heels",
-            "uploadPhoto": "https://i.pinimg.com/564x/c0/3f/d8/c03fd875dde20647da395a15d7211a3c.jpg",
-            "categoryID": 4,
-            "mrp": "1500",
-            "php": 1400,
-            "status": "publish",
-            "qty": 1
-          }
-        ]
-      },
-      "orderTotal": 2000,
-      "deliveryAddress": {
-        "id": 0,
-        "addLine1": "Sample street, Sample Barangay",
-        "addLine2": "Sample street2, Sample Barangay2",
-        "city": "Sample City or Town",
-        "state": "Choose...",
-        "zipCode": 1234
-      },
-      "contact": "0123456789",
-      "dateTime": "2/2/2023"
-    },
-    {
-      "id": 6,
-      "userId": 4,
-      "sellerId": 0,
-      "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
-        "qty": "1",
-        "mrp": "1300",
-        "php": 1250,
-        "status": "publish"
-      },
-      "orderTotal": 1250,
-      "deliveryAddress": {
-        "id": 0,
-        "addLine1": "Quiapo Manila",
-        "addLine2": null,
-        "city": "Manila",
-        "state": "Choose...",
-        "zipCode": 1012
-      },
-      "contact": "09453058997",
-      "dateTime": "2/2/2023"
-    },
-    {
-      "id": 7,
-      "userId": 4,
       "sellerId": 0,
       "products": {
         "id": 1,
         "name": "Studded Buckle Sandals",
         "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
         "categoryID": 1,
-        "qty": "1",
+        "qty": 1,
         "mrp": "300",
         "php": 200,
+        "size": "36",
         "status": "publish"
       },
       "orderTotal": 200,
       "deliveryAddress": {
         "id": 0,
-        "addLine1": "Quiapo Manila",
-        "addLine2": null,
-        "city": "Manila",
+        "addLine1": "Sample street, Sample Barangay",
+        "addLine2": "Sample street2, Sample Barangay2",
+        "city": "Sample City or Town",
         "state": "Choose...",
-        "zipCode": 1012
+        "zipCode": 1234
       },
-      "contact": "09453058997",
-      "dateTime": "2/2/2023"
+      "contact": "0123456789",
+      "dateTime": "2/3/2023"
     },
     {
-      "id": 8,
-      "userId": 4,
+      "id": 4,
+      "userId": 3,
       "sellerId": 0,
       "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
-        "qty": "1",
-        "mrp": "1300",
-        "php": 1250,
-        "status": "publish"
-      },
-      "orderTotal": 1250,
-      "deliveryAddress": {
-        "id": 0,
-        "addLine1": "Quiapo Manila",
-        "addLine2": null,
-        "city": "Manila",
-        "state": "Choose...",
-        "zipCode": 1012
-      },
-      "contact": "09453058997",
-      "dateTime": "2/2/2023"
-    },
-    {
-      "id": 9,
-      "userId": 4,
-      "sellerId": 0,
-      "products": {
-        "id": 3,
-        "name": "Plaited Sandals",
-        "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
+        "id": 22,
+        "name": "Summer Mat Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/35/93/dc/3593dc2aeb4d10b0c27ef6e02ee25e5c.jpg",
         "categoryID": 1,
-        "qty": "1",
-        "mrp": "350",
-        "php": 300,
+        "qty": 1,
+        "mrp": "250",
+        "php": 200,
+        "size": "34",
         "status": "publish"
       },
-      "orderTotal": 300,
+      "orderTotal": 200,
       "deliveryAddress": {
         "id": 0,
-        "addLine1": "Quiapo Manila",
-        "addLine2": null,
-        "city": "Manila",
+        "addLine1": "Sample street, Sample Barangay",
+        "addLine2": "Sample street2, Sample Barangay2",
+        "city": "Sample City or Town",
         "state": "Choose...",
-        "zipCode": 1012
+        "zipCode": 1234
       },
-      "contact": "09453058997",
-      "dateTime": "2/2/2023"
-    },
-    {
-      "id": 10,
-      "userId": 4,
-      "sellerId": 0,
-      "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
-        "qty": "1",
-        "mrp": "1300",
-        "php": 1250,
-        "status": "publish"
-      },
-      "orderTotal": 1250,
-      "deliveryAddress": {
-        "id": 0,
-        "addLine1": "Quiapo Manila",
-        "addLine2": null,
-        "city": "Manila",
-        "state": "Choose...",
-        "zipCode": 1012
-      },
-      "contact": "09453058997",
-      "dateTime": "2/2/2023"
+      "contact": "0123456789",
+      "dateTime": "2/3/2023"
     }
   ],
   "members": [

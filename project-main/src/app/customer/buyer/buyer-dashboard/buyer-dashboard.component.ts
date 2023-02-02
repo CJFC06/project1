@@ -86,20 +86,33 @@ export class BuyerDashboardComponent implements OnInit {
     this.router.navigateByUrl("/checkout");
   }
 
+  size: string
+
+  selected(sizze: any) {
+    this.size = sizze
+    console.log(sizze)
+  }
   addToCart(product) {
     const index = this.cart_products.findIndex(cart => cart.id === product.id)
-    if (index > -1) {
-      this.addQuantity(this.cart_products[index])
-    }
-    else {
-      product['qty'] = 1
-      this.myCartService.addToCart(product).subscribe(data => {
-        this.getAllProduct()
-      }), err => {
-        alert("Some error occured!")
+    if(this.size){
+      if (index > -1) {
+        this.addQuantity(this.cart_products[index])
+      }
+      else {
+        product['qty'] = 1
+        product['size'] = this.size
+        this.myCartService.addToCart(product).subscribe(data => {
+          this.getAllProduct()
+        }), err => {
+          alert("Some error occured!")
+        }
       }
     }
+    else{
+      alert("size required")
+    }
   }
+
 
   addQuantity(product) {
     ++product.qty
