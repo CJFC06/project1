@@ -70,6 +70,31 @@
       "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
       "role": "buyer",
       "id": 3
+    },
+    {
+      "aboutYou": "Programmer",
+      "age": 22,
+      "agreetc": true,
+      "dob": "2000-04-10",
+      "email": "jonnamaemayang7@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": "1012"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "09453058997",
+      "name": "Jonna Mae Mayang",
+      "password": "123456",
+      "uploadPhoto": "C:\\fakepath\\18899173.jpg",
+      "role": "buyer",
+      "id": 4
     }
   ],
   "products": [
@@ -629,6 +654,202 @@
         "zipCode": 1234
       },
       "contact": "0123456789",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "sellerId": 0,
+      "products": {
+        "id": 2,
+        "name": "Lace-Up Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+        "categoryID": 2,
+        "qty": 1,
+        "mrp": "1300",
+        "php": 1250,
+        "status": "publish"
+      },
+      "orderTotal": 1250,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Sample street, Sample Barangay",
+        "addLine2": "Sample street2, Sample Barangay2",
+        "city": "Sample City or Town",
+        "state": "Choose...",
+        "zipCode": 1234
+      },
+      "contact": "0123456789",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "sellerId": 0,
+      "products": {
+        "product": [
+          {
+            "id": 3,
+            "name": "Plaited Sandals",
+            "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
+            "categoryID": 1,
+            "mrp": "350",
+            "php": 300,
+            "status": "publish",
+            "qty": 2
+          },
+          {
+            "id": 9,
+            "name": "Leatherette Pointed Heels",
+            "uploadPhoto": "https://i.pinimg.com/564x/c0/3f/d8/c03fd875dde20647da395a15d7211a3c.jpg",
+            "categoryID": 4,
+            "mrp": "1500",
+            "php": 1400,
+            "status": "publish",
+            "qty": 1
+          }
+        ]
+      },
+      "orderTotal": 2000,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Sample street, Sample Barangay",
+        "addLine2": "Sample street2, Sample Barangay2",
+        "city": "Sample City or Town",
+        "state": "Choose...",
+        "zipCode": 1234
+      },
+      "contact": "0123456789",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "sellerId": 0,
+      "products": {
+        "id": 2,
+        "name": "Lace-Up Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+        "categoryID": 2,
+        "qty": "1",
+        "mrp": "1300",
+        "php": 1250,
+        "status": "publish"
+      },
+      "orderTotal": 1250,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": 1012
+      },
+      "contact": "09453058997",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "sellerId": 0,
+      "products": {
+        "id": 1,
+        "name": "Studded Buckle Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+        "categoryID": 1,
+        "qty": "1",
+        "mrp": "300",
+        "php": 200,
+        "status": "publish"
+      },
+      "orderTotal": 200,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": 1012
+      },
+      "contact": "09453058997",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "sellerId": 0,
+      "products": {
+        "id": 2,
+        "name": "Lace-Up Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+        "categoryID": 2,
+        "qty": "1",
+        "mrp": "1300",
+        "php": 1250,
+        "status": "publish"
+      },
+      "orderTotal": 1250,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": 1012
+      },
+      "contact": "09453058997",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "sellerId": 0,
+      "products": {
+        "id": 3,
+        "name": "Plaited Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
+        "categoryID": 1,
+        "qty": "1",
+        "mrp": "350",
+        "php": 300,
+        "status": "publish"
+      },
+      "orderTotal": 300,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": 1012
+      },
+      "contact": "09453058997",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 10,
+      "userId": 4,
+      "sellerId": 0,
+      "products": {
+        "id": 2,
+        "name": "Lace-Up Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+        "categoryID": 2,
+        "qty": "1",
+        "mrp": "1300",
+        "php": 1250,
+        "status": "publish"
+      },
+      "orderTotal": 1250,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Quiapo Manila",
+        "addLine2": null,
+        "city": "Manila",
+        "state": "Choose...",
+        "zipCode": 1012
+      },
+      "contact": "09453058997",
       "dateTime": "2/2/2023"
     }
   ],
