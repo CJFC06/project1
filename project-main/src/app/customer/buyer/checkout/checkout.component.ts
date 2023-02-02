@@ -137,35 +137,32 @@ export class CheckoutComponent implements OnInit {
     if (this.multiple_products) {
       this.customerService.insertNewOrder(this.order_dto).subscribe(data => {
         // console.log("Order placed successfully", data);
-        alert("Order places successfully")
-        this.router.navigateByUrl("/buyer-dashboard");
-      }, err => {
-        alert("Some Error Occured");
-      })
-
-      for (let i = 0; i < this.multiple_products.length; i++) {
-        this.myCartService.deleteProduct(this.multiple_products[i].id).subscribe(item => {
-        }, err => {
-          alert("Some error occured!")
-        })
-      }
-    }
-    else {
-      this.customerService.insertNewOrders(this.order_dto).subscribe(data => {
-        // console.log("Order placed successfully", data);
-        alert("Order places successfully")
+        for (let i = 0; i < this.multiple_products.length; i++) {
+          this.myCartService.deleteProduct(this.multiple_products[i].id).subscribe(err => {})
+        }
+        alert("Order placed successfully")
         this.router.navigateByUrl("/buyer-dashboard");
       }, err => {
         alert("Some Error Occured");
       })
       
-      this.myCartService.deleteProduct(this.individual_product.id).subscribe(item => {
+    }
+    else {
+      this.customerService.insertNewOrders(this.order_dto).subscribe(data => {
+        // console.log("Order placed successfully", data);
+        this.myCartService.deleteProduct(this.individual_product.id).subscribe(item => {
+        }, err => {
+          alert("Some error occured!")
+        })
+        alert("Order placed successfully")
+        this.router.navigateByUrl("/buyer-dashboard");
       }, err => {
-        alert("Some error occured!")
+        alert("Some Error Occured");
       })
+      
     }
     // console.log("Place order dto", this.order_dto);
-
+    // location.reload()
   }
 
 }

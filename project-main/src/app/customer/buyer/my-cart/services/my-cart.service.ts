@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class MyCartService {
 
-  public product_url = environment.server_url + '/cart/';
+  public cart_url = environment.server_url + '/cart/';
   private cartProductsTotal = new BehaviorSubject(0);
   private cartProducts = new BehaviorSubject([]);
   currentCartTotal = this.cartProductsTotal.asObservable();
@@ -17,15 +17,15 @@ export class MyCartService {
   constructor(private apiService: ApiService) { }
 
   allProduct(): Observable<any> {
-    return this.apiService.get(this.product_url)
+    return this.apiService.get(this.cart_url)
   }
 
   singleProduct(id) {
-    return this.apiService.get(this.product_url + id)
+    return this.apiService.get(this.cart_url + id)
   }
 
   updateQuantity(id, product): Observable<any> {
-    return this.apiService.put(this.product_url + id, product)
+    return this.apiService.put(this.cart_url + id, product)
   }
 
   cartTotal(total: number, products: any) {
@@ -34,10 +34,10 @@ export class MyCartService {
   }
 
   addToCart(product): Observable<any> {
-    return this.apiService.post(this.product_url, product);
+    return this.apiService.post(this.cart_url, product);
   }
 
   deleteProduct(id): Observable<any> {
-    return this.apiService.delete(this.product_url + id);
+    return this.apiService.delete(this.cart_url + id);
   }
 }

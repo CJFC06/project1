@@ -21,7 +21,7 @@ export class BuyerDashboardComponent implements OnInit {
   priceFilteredMin: number | undefined
   priceFilteredMax: number | undefined
 
-  constructor(private router: Router, private customerService: CustomerService, private myCartService: MyCartService) { }
+  constructor(private router: Router, private customerService: CustomerService, private myCartService: MyCartService) {}
 
   ngOnInit() {
     this.getAllProduct()
