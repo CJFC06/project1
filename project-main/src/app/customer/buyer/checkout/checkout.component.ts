@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CustomerService } from '../../services/customer.service';
 import { Product, User, Order, Products } from '../../../core/models/object-model';
+import { MyCartService } from '../my-cart/services/my-cart.service';
 
 @Component({
   selector: 'app-checkout',
@@ -12,9 +13,9 @@ export class CheckoutComponent implements OnInit {
 
   single_product_id: number
   product_source: string
-  multiple_products: Product[]
+  multiple_products: Product[] = null
   user_id: number
-  individual_product: Product
+  individual_product: Product = null
   user_detail: User
   user_address
   user_contact_no: number
@@ -23,7 +24,7 @@ export class CheckoutComponent implements OnInit {
 
   all_categories: any[] = []
 
-  constructor(private customerService: CustomerService, private router: Router) { }
+  constructor(private customerService: CustomerService, private router: Router, private myCartService: MyCartService) { }
 
   ngOnInit() {
     this.customerService.currentProduct.subscribe(product => this.single_product_id = product)
@@ -141,6 +142,13 @@ export class CheckoutComponent implements OnInit {
       }, err => {
         alert("Some Error Occured");
       })
+
+      for (let i = 0; i < this.multiple_products.length; i++) {
+        this.myCartService.deleteProduct(this.multiple_products[i].id).subscribe(item => {
+        }, err => {
+          alert("Some error occured!")
+        })
+      }
     }
     else {
       this.customerService.insertNewOrders(this.order_dto).subscribe(data => {
@@ -150,6 +158,8 @@ export class CheckoutComponent implements OnInit {
       }, err => {
         alert("Some Error Occured");
       })
+      
+      this.myCartService.deleteProduct(this.individual_product.id).subscribe()
     }
     // console.log("Place order dto", this.order_dto);
 

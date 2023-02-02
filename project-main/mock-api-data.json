@@ -570,16 +570,16 @@
       "userId": 3,
       "sellerId": 0,
       "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
+        "id": 1,
+        "name": "Studded Buckle Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+        "categoryID": 1,
         "qty": 1,
-        "mrp": "1300",
-        "php": 1250,
+        "mrp": "300",
+        "php": 200,
         "status": "publish"
       },
-      "orderTotal": 1250,
+      "orderTotal": 200,
       "deliveryAddress": {
         "id": 0,
         "addLine1": "Marathalli",
@@ -596,30 +596,16 @@
       "userId": 3,
       "sellerId": 0,
       "products": {
-        "product": [
-          {
-            "id": 2,
-            "name": "Lace-Up Sneakers",
-            "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-            "categoryID": 2,
-            "mrp": "1300",
-            "php": 1250,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 3,
-            "name": "Plaited Sandals",
-            "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
-            "categoryID": 1,
-            "mrp": "350",
-            "php": 300,
-            "status": "publish",
-            "qty": 2
-          }
-        ]
+        "id": 2,
+        "name": "Lace-Up Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
+        "categoryID": 2,
+        "qty": 2,
+        "mrp": "1300",
+        "php": 1250,
+        "status": "publish"
       },
-      "orderTotal": 1850,
+      "orderTotal": 2500,
       "deliveryAddress": {
         "id": 0,
         "addLine1": "Marathalli",
@@ -636,16 +622,16 @@
       "userId": 3,
       "sellerId": 0,
       "products": {
-        "id": 2,
-        "name": "Lace-Up Sneakers",
-        "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-        "categoryID": 2,
+        "id": 1,
+        "name": "Studded Buckle Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
+        "categoryID": 1,
         "qty": 1,
-        "mrp": "1300",
-        "php": 1250,
+        "mrp": "300",
+        "php": 200,
         "status": "publish"
       },
-      "orderTotal": 1250,
+      "orderTotal": 200,
       "deliveryAddress": {
         "id": 0,
         "addLine1": "Marathalli",
@@ -662,70 +648,42 @@
       "userId": 3,
       "sellerId": 0,
       "products": {
-        "product": [
-          {
-            "id": 2,
-            "name": "Lace-Up Sneakers",
-            "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-            "categoryID": 2,
-            "mrp": "1300",
-            "php": 1250,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 3,
-            "name": "Plaited Sandals",
-            "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
-            "categoryID": 1,
-            "mrp": "350",
-            "php": 300,
-            "status": "publish",
-            "qty": 2
-          },
-          {
-            "id": 1,
-            "name": "Studded Buckle Sandals",
-            "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
-            "categoryID": 1,
-            "mrp": "300",
-            "php": 200,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 4,
-            "name": "Dalia Boots",
-            "uploadPhoto": "https://i.pinimg.com/564x/cf/15/cf/cf15cf66116e92c11d721cd09b295cca.jpg",
-            "categoryID": 3,
-            "mrp": "1600",
-            "php": 1500,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 8,
-            "name": "Natalia Spear Boots",
-            "uploadPhoto": "https://i.pinimg.com/564x/c5/97/b3/c597b31772275a786c6fc3eb3b56abdf.jpg",
-            "categoryID": 3,
-            "mrp": "2200",
-            "php": 2000,
-            "status": "publish",
-            "qty": 1
-          },
-          {
-            "id": 12,
-            "name": "Glittery Low Cut Boots",
-            "uploadPhoto": "https://i.pinimg.com/564x/ba/af/7f/baaf7fb70281f4a67dd69a2261a505a0.jpg",
-            "categoryID": 3,
-            "mrp": "1700",
-            "php": 1600,
-            "status": "publish",
-            "qty": 1
-          }
-        ]
+        "id": 3,
+        "name": "Plaited Sandals",
+        "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
+        "categoryID": 1,
+        "qty": 1,
+        "mrp": "350",
+        "php": 300,
+        "status": "publish"
       },
-      "orderTotal": 7150,
+      "orderTotal": 300,
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "0123456789",
+      "dateTime": "2/2/2023"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "sellerId": 0,
+      "products": {
+        "id": 6,
+        "name": "Urban Sneakers",
+        "uploadPhoto": "https://i.pinimg.com/564x/30/5f/30/305f305394ad4a74f59740062f39ff0d.jpg",
+        "categoryID": 2,
+        "qty": 1,
+        "mrp": "1250",
+        "php": 1200,
+        "status": "publish"
+      },
+      "orderTotal": 1200,
       "deliveryAddress": {
         "id": 0,
         "addLine1": "Marathalli",
@@ -777,62 +735,12 @@
   ],
   "cart": [
     {
-      "id": 2,
-      "name": "Lace-Up Sneakers",
-      "uploadPhoto": "https://i.pinimg.com/564x/03/5e/81/035e81c8f2510c5f898f368815557257.jpg",
-      "categoryID": 2,
-      "mrp": "1300",
-      "php": 1250,
-      "status": "publish",
-      "qty": 1
-    },
-    {
-      "id": 3,
-      "name": "Plaited Sandals",
-      "uploadPhoto": "https://i.pinimg.com/564x/74/5e/c1/745ec13df44885f002ebb42003a175c4.jpg",
-      "categoryID": 1,
-      "mrp": "350",
-      "php": 300,
-      "status": "publish",
-      "qty": 2
-    },
-    {
-      "id": 1,
-      "name": "Studded Buckle Sandals",
-      "uploadPhoto": "https://i.pinimg.com/564x/fa/c7/83/fac783bc652d823f39f33dbee13915f9.jpg",
-      "categoryID": 1,
-      "mrp": "300",
-      "php": 200,
-      "status": "publish",
-      "qty": 1
-    },
-    {
-      "id": 4,
-      "name": "Dalia Boots",
-      "uploadPhoto": "https://i.pinimg.com/564x/cf/15/cf/cf15cf66116e92c11d721cd09b295cca.jpg",
-      "categoryID": 3,
-      "mrp": "1600",
-      "php": 1500,
-      "status": "publish",
-      "qty": 1
-    },
-    {
-      "id": 8,
-      "name": "Natalia Spear Boots",
-      "uploadPhoto": "https://i.pinimg.com/564x/c5/97/b3/c597b31772275a786c6fc3eb3b56abdf.jpg",
-      "categoryID": 3,
-      "mrp": "2200",
-      "php": 2000,
-      "status": "publish",
-      "qty": 1
-    },
-    {
-      "id": 12,
-      "name": "Glittery Low Cut Boots",
-      "uploadPhoto": "https://i.pinimg.com/564x/ba/af/7f/baaf7fb70281f4a67dd69a2261a505a0.jpg",
-      "categoryID": 3,
-      "mrp": "1700",
-      "php": 1600,
+      "id": 5,
+      "name": "Classic Nude Heels",
+      "uploadPhoto": "https://i.pinimg.com/564x/00/3f/0f/003f0ffc95dcf73256bff15c61dbf674.jpg",
+      "categoryID": 4,
+      "mrp": "1000",
+      "php": 900,
       "status": "publish",
       "qty": 1
     }
