@@ -159,7 +159,10 @@ export class CheckoutComponent implements OnInit {
         alert("Some Error Occured");
       })
       
-      this.myCartService.deleteProduct(this.individual_product.id).subscribe()
+      this.myCartService.deleteProduct(this.individual_product.id).subscribe(item => {
+      }, err => {
+        alert("Some error occured!")
+      })
     }
     // console.log("Place order dto", this.order_dto);
 
