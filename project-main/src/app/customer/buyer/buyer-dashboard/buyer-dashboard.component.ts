@@ -81,9 +81,14 @@ export class BuyerDashboardComponent implements OnInit {
   }
 
   buyProduct(id) {
+    if(this.size){
     this.show_checkout = true;
     this.customerService.quickBuyProduct(id, "products") //We pass to serice from service we can access in another component
     this.router.navigateByUrl("/checkout");
+    }
+    else{
+      alert("size required")
+    }
   }
 
   size: string
